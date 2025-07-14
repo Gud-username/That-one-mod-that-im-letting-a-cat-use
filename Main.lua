@@ -1,17 +1,17 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Card skin template
 --- MOD_ID: template
---- PREFIX: template
+--- PREFIX: main
 --- MOD_AUTHOR: [Your name here, please credit me]
 --- MOD_DESCRIPTION: Put mod decription here
 --- LOADER_VERSION_GEQ: 1.0
 --- VERSION: 1.0
 --- BADGE_COLOR: FF6368
 
-local atlas_key = "template_atlas" -- Format: "PREFIX"_atlas
+local atlas_key = "main_atlas" -- Format: "PREFIX"_atlas
 -- See end of file for notes
-local atlas_path = "template_lc.png" -- Filename for the image in the asset folder
-local atlas_path_hc = "template_hc.png" -- Filename for thef high-contrast version of the texture, if existing
+local atlas_path = "main_lc.png" -- Filename for the image in the asset folder
+local atlas_path_hc = "main_hc.png" -- Filename for thef high-contrast version of the texture, if existing
 
 local suits = {"hearts", "clubs", "diamonds", "spades",} -- These are the suits which you will give a skin to
 local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- These are the ranks affected <for all suits>
@@ -21,7 +21,7 @@ local description = {
     clubs = "Clubs skin name",
     diamonds = "Diamonds skin name",
     spades = "Spades skin name",
-
+}
 -----------------------------------------------------------
 -- You should only need to change things above this line --
 -----------------------------------------------------------
