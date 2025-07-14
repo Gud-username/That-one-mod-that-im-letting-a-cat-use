@@ -53,8 +53,7 @@ for _, suit in ipairs(suits) do
         lc_atlas = atlas_key..'_lc',
         hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
         loc_txt = {
-            ['en-us'] = description
-        },
+            ['en-us'] = description[suit]},
         posStyle = 'deck'
     }
 end
