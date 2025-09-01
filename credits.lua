@@ -26,4 +26,14 @@ SMODS.current_mod.extra_tabs = function()
               },
         }
       } }
-  }
+    }
+  
+    return {
+      {
+        label = "Credits",
+        tab_definition_function = function()
+          return credits_tab
+        end
+      }
+    }
+  end
