@@ -1,4 +1,4 @@
-RSMODS.current_mod.extra_tabs = function()
+SMODS.current_mod.extra_tabs = function()
     local credits_tab = {
       n = G.UIT.ROOT,
       config = { align = 'tl', padding = 0.05, emboss = 0.05, r = 0.1, colour = G.C.BLACK },
