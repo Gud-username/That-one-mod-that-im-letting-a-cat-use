@@ -52,3 +52,6 @@ for _, suit in ipairs(suits) do
         posStyle = 'deck'
     }
 end
+
+-- Load the Credits tab
+SMODS.load_file('credits.lua')()
